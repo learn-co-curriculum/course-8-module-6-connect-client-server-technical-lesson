@@ -2,5 +2,6 @@
 # This function should return a dictionary with keys "message" and "status"
 # For example: { "message": "Hello from Flask!", "status": "success" }
 
-# def get_sample_data():
-#     pass
+data = {"message": "Hello from Felix!", "status": "success"}
+def get_sample_data():
+    return data
